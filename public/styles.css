@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font: 16px/1 sans-serif;
+}
+menu{
+    border-radius: 25px;
+    border: 4px dotted cadetblue;
+}
+menu ul{
+    margin: 0;
+    padding: 0; }
+menu li {
+    display: inline-block;
+    padding: 5px;
+}
+a{
+    color: cadetblue;
+    text-decoration: none;
+}
+a.active {
+    color: tomato;
+    font-weight: bold;
+    text-decoration: none;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: tomato;
+    color: dodgerblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+menu {
+    background-color: gold;
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#root{
+    height: 100vh;
+}
